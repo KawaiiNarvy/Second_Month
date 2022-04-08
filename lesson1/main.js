@@ -34,9 +34,9 @@
 //
 // console.log(arr)
 
-// const name= prompt("как вас зовут")
-// console.log()
-// const name2= alert("ошибка  ")
+const name= prompt("как вас зовут")
+console.log()
+const name2= alert("ошибка  ")
 const first_name= prompt("первое слово")
 const last_name= prompt("второе слово")
 if (first_name > last_name) {

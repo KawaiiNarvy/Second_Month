@@ -4,15 +4,24 @@
 }
 .counter{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
     height: 100vh;
     background: linear-gradient(to right, #57DCEE, #9D8DF6);
 }
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
 span{
     font-size: 30px;
     color: #fff;
+}
+h1{
+    font-size: 60px;
 }
 #num{
     color: #fff;
@@ -44,4 +53,13 @@ span{
     border-color: #57DCEE;
     background-color: #d4bdff;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#reset{
+    width: 60px;
+    height: 30px;
+    background-color: #d4bdff;
+    margin-top: 15px;
+    border-color: #d4bdff;
+    border-radius: 10px;
+    color: #fff;
 }

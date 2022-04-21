@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    color: aliceblue;
+}
+.traffic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: 400px;
+    background-color: black;
+    border-radius: 40px;
+    padding: 20px 0;
+    border: 1px solid #fff;
+}
+.circle{
+    background-color: #332c2c;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color:aliceblue;
+}
+.stick{
+    width: 20px;
+    height: 190px;
+    background: black;
+    border: 1px solid #fff;
+}
